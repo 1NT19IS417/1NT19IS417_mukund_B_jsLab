@@ -1,0 +1,17 @@
+button {
+    margin:auto;
+    display:block;
+  }
+  
+  
+  h1 {
+    margin:auto;
+    display:block;
+    text-align: center;
+  }  
+  .center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(16, 17, 16);
+    padding: 5px;
+  }
