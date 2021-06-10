@@ -1,0 +1,40 @@
+<!-- Title: Develop a Form using Regex -->
+<!-- Description: To use Regex to develop a Form which can   
+                  validate the Values entered into the Form -->
+<!-- Author:Mukund.G -USN:1NT19IS417-->
+<!-- Date: 10/06/21 -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Form Using Regular Expression</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Welcome to Registration Portal</h1>
+    <form>
+      <input type="text" name="username" placeholder="Username" />
+      <p>Username must be and contain 5 - 12 characters</p>
+
+      <input type="text" name="email" placeholder="Email" />
+      <p>Email must be a valid address, e.g. name@gmail.com</p>
+
+      <input type="password" name="password" placeholder="Password" />
+      <p>
+        Password must alphanumeric (@, _ and - are also allowed) and be 8 - 20
+        characters
+      </p>
+
+      <input type="text" name="telephone" placeholder="Mobile no" />
+      <p>Phone Number must be a valid Indian number (10 digits)</p>
+
+      <input type="text" name="profilename" placeholder="Profile name" />
+      <p>
+        Profile name must contain only lowercase letters, numbers and hyphens
+        and be 8 - 20 characters
+      </p>
+    </form>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
