@@ -22,4 +22,3 @@ keys.forEach((item) =>
     validate(e.target, inp_field[e.target.attributes.name.value]);
   })
 );
-document.addEventListener("click", () => console.log("click"));
