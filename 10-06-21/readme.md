@@ -7,5 +7,4 @@
 <hr />
 
 ![Screenshot](Output2.png)
-
 <hr />
